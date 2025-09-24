@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Pull code from GitHub
-                git 'https://github.com/mathesh3/demoproject.git'
+                git 'https://github.com/mathesh3/spring-boot-demo.git'
             }
         }
 
